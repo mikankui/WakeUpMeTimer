@@ -1,5 +1,5 @@
 // featureのparamのvalueで指定したやつ
-package WakeUpMeTimer;
+package com.gmail.mikankui;
 
 import org.apache.cordova.*;
 import org.json.JSONArray;
