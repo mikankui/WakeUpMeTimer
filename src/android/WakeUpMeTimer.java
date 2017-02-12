@@ -1,9 +1,10 @@
 // featureのparamのvalueで指定したやつ
-package com.gmail.mikankui;
+package com.gmail.mikankui.WakeUpMeTimer;
 
 import org.apache.cordova.*;
 import org.json.JSONArray;
 import org.json.JSONException;
+import android.util.Log;
 
 public class WakeUpMeTimer extends CordovaPlugin {
 
