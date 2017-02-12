@@ -17,7 +17,8 @@
   </engines>
   <!-- JSの場所指定。name: モジュール名 -->
     <js-module name="WakeUpMeTimer" src="www/WakeUpMeTimer.js">
-        <clobbers target="navigator.plugins.WakeUpMeTimer" />
+        <clobbers target="navigator.plugins.setTimer;
+" />
     </js-module>
 
   <!-- Android用の設定 -->
