@@ -4,4 +4,4 @@ var setTimer = {
     exec(success, error, "WakeUpMeTimer", "setTimer", [countDownTime]);
     }
 };
-module.exports = alarm;setTimer
+module.exports = setTimer;
