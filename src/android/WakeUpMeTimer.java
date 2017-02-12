@@ -15,7 +15,7 @@ public class WakeUpMeTimer extends CordovaPlugin {
             callbackContext.success(message);
             return true;
         } else {
-            String message = "Hello, World !!! " + "Hello EEROR, " + name;
+            String message = "Hello, World !!! " + "Hello EEROR";
             callbackContext.success(message);
             return false;
         }
