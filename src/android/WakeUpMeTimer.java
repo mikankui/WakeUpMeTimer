@@ -9,7 +9,6 @@ public class WakeUpMeTimer extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
-        console.log("called setTimer");
         if (action.equals("setTimer")) {
             String name = data.getString(0);
             String message = "Hello, World !!! " + "Hello, " + name;
